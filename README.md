@@ -92,5 +92,7 @@ Execute the follow command line: `pip install jupyter pandas scikit-learn matplo
 
 `jupyter notebook --notebook-dir=/mnt/d/Projetos/Federated-learning-hands-on-activity-from-ISABELA`
 
+### Are you finished?
 
+If you arrived here, you can enter the [01_model_processing](./scripts/01_model_processing) folder to read the instructions and execute the codes.
 
