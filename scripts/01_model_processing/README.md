@@ -7,8 +7,13 @@ It was three files:
 - **RNN_LSTM_didatic_federated_example.ipynb**: it has a code of time sequence classification with Long short-term memory algorithm.
 - **federated_learning_for_image_classification.ipynb**: it has the example from Google with image processing.
 
-First, access the file **MLP_didatic_federated_example.ipynb**, read the comments and execute until the end.
+Execute jupyter notebook and you will be able to read and execute the files.
 
-Second, access the file **RNN_LSTM_didatic_federated_example.ipynb**, read the comments and execute until the end.
+Summary of the commands:
+- (if you are using conda) `conda activate trctf`
+- `jupyter notebook`
 
-Third,  access the file **federated_learning_for_image_classification.ipynb**, read the comments and execute until the end.
+It is recommended to access read the comments and execute until the end all files in the follow order: 
+1. **MLP_didatic_federated_example.ipynb**,
+2. **RNN_LSTM_didatic_federated_example.ipynb**
+3. **federated_learning_for_image_classification.ipynb**
