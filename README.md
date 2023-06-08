@@ -1,6 +1,6 @@
 # Federated learning hands-on activity from ISABELA
- 
-This file descrebes the Federated learning hands-on activity using data from ISABELA platform. It uses tensorflow federated library, Python and jupyter notebook to execute the codes.
+
+This file describes the Federated Learning hands-on activity using data from ISABELA platform. It executes the codes using the tensorflow federated library, Python and Jupyter Notebook.
 
 Author: Guilherme Antonio Borges
 
@@ -8,7 +8,7 @@ Professor: Jorge Sá Silva
 
 ## Requirements
 
-Windows, Linux or MacOS with Conda, pip and Python 3.9+ support. 
+Windows, Linux or macOS with Conda, pip and Python 3.9+ support. 
 
 GPU support is not required, but it greatly improves the performance. If you want to use it
 consider the instructions in [link](https://www.tensorflow.org/install/pip?hl=pt-br).
@@ -74,7 +74,7 @@ MacOS does not have access to some compression libraries used in recent machine 
 - `pip install farmhashpy==0.4.0 portpicker==1.5 semantic-version==2.6 tensorflow-model-optimization==0.7.3 tensorflow-privacy==0.8.4 --no-dependencies --no-cache-dir`
 - `pip install tensorflow-federated==0.34  --no-deps --no-cache-dir`
 
-If you have on MacOS the error with hdf5 library you must install homebrew to install it. Instructions:
+If you have on macOS the error with hdf5 library you must install homebrew to install it. Instructions:
 - Install HomeBrew: https://brew.sh
 - Export homebrew: `echo "export PATH=/opt/homebrew/bin:$PATH" >> ~/.bash_profile && source ~/.bash_profile`
 - Install hdf5: https://stackoverflow.com/questions/70587971/errorfailed-building-wheel-for-h5pyfailed-to-build-h5pyerrorcould-not-build-wh
